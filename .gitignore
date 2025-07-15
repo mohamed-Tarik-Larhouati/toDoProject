@@ -1,0 +1,54 @@
+# Laravel & PHP
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+/storage/app/public
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*.log
+/bootstrap/cache/*.php
+
+# Environnement
+.env
+.env.*
+!.env.example
+
+# Tests
+.phpunit.result.cache
+
+# Laravel Mix / Vite
+/public/hot
+/public/mix-manifest.json
+/public/build
+/build
+
+# IDEs & OS
+.idea
+.vscode
+*.sublime-workspace
+*.sublime-project
+.DS_Store
+Thumbs.db
+
+# NPM/Yarn logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+
+# Composer PHAR
+composer.phar
+
+# Laravel Telescope / Horizon (si utilisés)
+storage/telescope
+storage/horizon
+
+# Laravel IDE Helper (si utilisé)
+_ide_helper.php
+_ide_helper_models.php
+.phpstorm.meta.php
+
+
